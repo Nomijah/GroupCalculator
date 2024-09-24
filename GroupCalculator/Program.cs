@@ -5,8 +5,6 @@
         static void Main(string[] args)
         {
             Console.WriteLine("Hello, World!");
-
-            Console.WriteLine("Hej, jag heter Greta!");
         }
 
         static int Add(int x, int y)
