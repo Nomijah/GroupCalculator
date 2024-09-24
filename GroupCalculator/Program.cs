@@ -6,6 +6,7 @@
         {
             Console.WriteLine("Hello, World!");
         }
+
         static int Add(int x, int y)
         {
             return x + y;
@@ -16,5 +17,9 @@
             return a * b;
         }
 
+        static int Divide(int a, int b)
+        {
+            return a / b;
+        }
     }
 }
