@@ -4,7 +4,11 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+
+            Console.WriteLine("Hej, jag heter Greta!");
+            Random rng = new Random();
+            int randomNumber = rng.Next(1,101);
+            Console.WriteLine(randomNumber);
         }
 
         static int Add(int x, int y)
